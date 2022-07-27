@@ -1,0 +1,29 @@
+.app{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle[data-isOpen="true"]{
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: lightgreen;
+}
+
+.circle[data-isOpen="true"] {
+  width: 400px;
+  height: 400px;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: red;
+  transform-origin: 0%;
+}
