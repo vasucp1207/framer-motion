@@ -63,6 +63,16 @@ function App() {
           variants={draw}
           custom={2}
         />
+
+        <motion.line
+          x1="220"
+          y1="220"
+          x2="360"
+          y2="170"
+          stroke="#00cc88"
+          variants={draw}
+          custom={2}
+        />
       </motion.svg>
     </div>
   );

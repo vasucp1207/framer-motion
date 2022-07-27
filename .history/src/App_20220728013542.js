@@ -11,6 +11,8 @@ function App() {
     restDelta: 0.001
   })
 
+  const [isOpen, setOpen] = useState(false)
+
   const draw = {
     hidden: { pathLength: 0, opacity: 0 },
     visible: (i) => {
@@ -47,23 +49,15 @@ function App() {
         }}
       />
 
-      <motion.svg
-        width="600"
-        height="600"
-        viewBox="0 0 600 600"
-        initial="hidden"
-        animate="visible"
-      >
-        <motion.line
-          x1="220"
-          y1="30"
-          x2="360"
-          y2="170"
-          stroke="#00cc88"
-          variants={draw}
-          custom={2}
-        />
-      </motion.svg>
+      <motion.line
+        x1="220"
+        y1="30"
+        x2="360"
+        y2="170"
+        stroke="#00cc88"
+        variants={draw}
+        custom={2}
+      />
     </div>
   );
 }

@@ -62,6 +62,7 @@ function App() {
           stroke="#00cc88"
           variants={draw}
           custom={2}
+          style={{width: 20}}
         />
       </motion.svg>
     </div>

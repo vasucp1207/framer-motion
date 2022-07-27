@@ -12,7 +12,7 @@ function App() {
   })
 
   const draw = {
-    hidden: { pathLength: 0, opacity: 0 },
+    hidden: { pathLength: 10, opacity: 0 },
     visible: (i) => {
       const delay = 1 + i * 0.5;
       return {

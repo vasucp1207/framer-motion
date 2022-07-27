@@ -59,6 +59,7 @@ function App() {
           y1="30"
           x2="360"
           y2="170"
+          width="10"
           stroke="#00cc88"
           variants={draw}
           custom={2}

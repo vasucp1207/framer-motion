@@ -16,7 +16,7 @@ function App() {
     visible: (i) => {
       const delay = 1 + i * 0.5;
       return {
-        pathLength: 1,
+        pathLength: 10,
         opacity: 1,
         transition: {
           pathLength: { delay, type: "spring", duration: 1.5, bounce: 0 },

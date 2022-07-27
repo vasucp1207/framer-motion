@@ -63,6 +63,7 @@ function App() {
           variants={draw}
           custom={2}
         />
+        
       </motion.svg>
     </div>
   );
